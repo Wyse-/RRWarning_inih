@@ -29,3 +29,6 @@ This software will need tweaking based on your preferences and relies on externa
 **[RefreshRates]**: the desired refresh rates to switch to when the game corresponding to its number is open. RRNoGame should be set to the refresh rate you want to switch to when no games are open.
 
 **[Paths]**: those are the directories of the vbs files corresponding to the games and refreshrates of the same number. PathNoGame should be set to the path of the RRNoGame refresh rate vbs file.
+
+## License
+This software is released under [The Unlicense](https://github.com/Wyse-/RRWarning_inih/blob/master/LICENSE), however the [inih library](https://github.com/benhoyt/inih), which handles the ini file parsing, is released under a [different license](https://github.com/Wyse-/RRWarning_inih/blob/master/LICENSE_inih).
