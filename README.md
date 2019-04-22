@@ -1,7 +1,7 @@
 # RRWarning_inih
 ## Screenshots
 
-![alt tag](https://i.imgur.com/NHCoHTL.png) ![alt tag](https://i.imgur.com/G89ka73.png) ![alt tag](https://i.imgur.com/PdlOPVG.png)
+![screenshot 1](https://user-images.githubusercontent.com/5454041/56529293-d19c9600-6550-11e9-82fb-c95bb91fc3c6.png) ![screenshot 2](https://user-images.githubusercontent.com/5454041/56529324-da8d6780-6550-11e9-8e81-d73c9799cb06.png) ![screenshot 3](https://user-images.githubusercontent.com/5454041/56529350-e24d0c00-6550-11e9-93b7-8f01ef82da16.png)
 
 ## Description
 This is a software which displays a message box to switch refresh rates based on which game is open. It's based on a previous project of mine, [GetRR](https://github.com/Wyse-/GetRR), but modified to be configurable thanks to the [inih](https://github.com/benhoyt/inih) library. As you probably guessed by the name it's configured through an ini file. Currently the message boxes are displayed by using VBScript files, and the refresh rates are applied by using batch files and the SetDisplayFrequency executable from AnyDVD: in the future I'll probably look into a better solution, but they do get the job done for now.
